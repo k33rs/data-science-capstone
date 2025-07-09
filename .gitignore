@@ -1,0 +1,17 @@
+# Ignore everything
+*
+
+# But not these files
+!*.py
+!*.ipynb
+!ds-capstone.pptx
+!ds-capstone.pdf
+!*.csv
+!README.md
+
+# Also don't ignore folders (otherwise you can't track files inside them)
+!*/
+
+# Optional: exclude hidden files and folders if needed
+.* 
+!.gitignore
